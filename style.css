@@ -96,7 +96,7 @@ section {
     align-items: center;
     padding: 0 9%;
     flex-wrap: wrap;
-    /* background:url('./images/newInnohero.jpg') no-repeat;
+    /* background:url('/images/newInnohero.jpg') no-repeat;
     background-size: cover;
     background-position: 100%;
     object-fit: cover; */
@@ -142,6 +142,7 @@ section {
     justify-content: space-between;
     width: 34.5rem;
     height: 5rem;
+    /* margin-top: 10rem; */
 }
 
 .button-innoBlend .button-Blend {
@@ -976,10 +977,22 @@ section {
     }
 }
 
-@media (max-Width:450px) {
+@media (max-Width:430px) {
     html {
         font-size: 50%;
     }
+  
+    .button-innoBlend{
+        /* width: 30rem;
+        height: 3rem; */
+        margin-top: 6rem;
+        
+    }
+
+    .hero-section-socialMedia{
+        margin-bottom: -3rem;
+    }
+    
 }
 
 @media (max-Width:403px) {
@@ -1034,3 +1047,5 @@ section {
         width: 0;
     }
 }
+
+
