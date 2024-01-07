@@ -17,6 +17,15 @@
 
 }
 
+@font-face { 
+    font-family: 'Blanka'; 
+    src: 
+        url('./Blanka-Regular.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -56,6 +65,7 @@ body {
 .innoBlendLogo {
     position: relative;
     font-size: 2.5rem;
+    font-family: "Blanka-Regular.otf";
     color: var(--text-color);
     font-weight: 600;
 }
